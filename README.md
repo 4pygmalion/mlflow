@@ -28,3 +28,10 @@ $ docker-compose pull
 $ docker-compose build --pull
 $ docker-compose up --build --remove-orphans --detach # build after pull latest
 ```
+
+For Centos
+```/bin/absh
+$ sudo -E docker-compose pull  E (-E option: 환경변수 유지)
+$ sudo systemctl restart docker
+$ sudo docker-compose up --build --remove-orphans --detach
+```
