@@ -13,12 +13,23 @@ $ export MYSQL_USER=<user>
 $ export MYSQL_PASSWORD=<password>
 $ export MYSQL_ROOT_PASSWORD=<root_password>
 $ export MYSQL_DIR=<host_mysql_dir>
+
+// example
+export MYSQL_DATABASE=mlflow
+export MYSQL_USER=mlflow
+export MYSQL_PASSWORD=mlflow
+export MYSQL_ROOT_PASSWORD=mlflow
+export MYSQL_DIR=/home/hoheon/repositories/mlflow_db
 ```
 
 2. MLflow trackign server setting
 ```/bin/bash
 $ export MLFLOW_PORT=<mlflow_port>
 $ export ARTIFACT_DIR=<artifact_dir>
+
+//exmaple
+export MLFLOW_PORT=5000
+export ARTIFACT_DIR=/home/hoheon/repositories/mlflow
 ```
 
 
