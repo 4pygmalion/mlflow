@@ -1,6 +1,12 @@
 # mlflow
 machine learning lifecycle sys
 
+# Install
+- GCP 이용시
+```
+$ sudo snap refresh docker --channel=latest/edge
+```
+
 0. Docker official image pull
 ```
 $ docker pull ghcr.io/mlflow/mlflow
