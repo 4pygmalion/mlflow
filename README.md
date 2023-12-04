@@ -2,7 +2,7 @@
 machine learning lifecycle sys
 
 # Install
-- GCP 이용시 (invalid Host header)
+- GCP 이용시 (invalid Host header 오류발생) -> 최신버전 도커설치 필요
 ```
 $ sudo snap refresh docker --channel=latest/edge
 ```
