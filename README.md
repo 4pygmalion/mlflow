@@ -2,7 +2,7 @@
 machine learning lifecycle sys
 
 # Install
-- GCP 이용시
+- GCP 이용시 (invalid Host header)
 ```
 $ sudo snap refresh docker --channel=latest/edge
 ```
