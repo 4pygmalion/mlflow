@@ -27,8 +27,7 @@ services:
     depends_on:
       - mlflow-db
     ports:
-      - ${MLFLOW_PORT}:${MLFLOW_PORT}
-      - 5000:5000
+      - ${MLFLOW_PORT}:5000
     volumes:
       - ${ARTIFACT_DIR}:${ARTIFACT_DIR}
     networks:
