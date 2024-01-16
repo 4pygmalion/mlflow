@@ -41,9 +41,9 @@ export ARTIFACT_DIR=/home/hoheon/repositories/mlflow
 
 3. Run
 ```/bin/bash
-$ docker-compose pull
-$ docker-compose build --pull
-$ docker-compose up --build --remove-orphans --detach # build after pull latest
+$ docker compose pull
+$ docker compose build --pull
+$ docker compose up --build --remove-orphans --detach # build after pull latest
 ```
 
 With sudo
