@@ -14,6 +14,7 @@ prompt_and_set() {
 if [ -f "$CONFIG_FILE" ]; then
     echo "Removing existing $CONFIG_FILE"
     rm "$CONFIG_FILE"
+    echo "Created new $CONFIG_FILE"lear
 fi
 
 # Check if 'docker compose' command is available, and use the appropriate one

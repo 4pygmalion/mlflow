@@ -52,3 +52,8 @@ $ sudo -E docker-compose pull (-E option: 환경변수 유지)
 $ sudo -E docker-compose build --pull
 $ sudo -E docker-compose up --build --remove-orphans --detach
 ```
+
+
+
+#### rootless docker을 이용한 배포
+$ bash run.sh
