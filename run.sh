@@ -17,15 +17,7 @@ if [ -f "$CONFIG_FILE" ]; then
     echo "Created new $CONFIG_FILE"lear
 fi
 
-# Check if 'docker compose' command is available, and use the appropriate one
-if command -v docker &> /dev/null; then
-    COMPOSE_COMMAND="docker compose"
-elif command -v docker-compose &> /dev/null; then
-    COMPOSE_COMMAND="docker-compose"
-else
-    echo "Error: Neither 'docker-compose' nor 'docker compose' command found."
-    exit 1
-fi
+COMPOSE_COMMAND="docker-compose"
 
 
 prompt_and_set "MYSQL_DATABASE" "MYSQL_DATABASE"
